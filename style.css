@@ -1,0 +1,125 @@
+/* unicode reference */
+@charset "utf-8"
+
+html {
+	box-sizing: border-box;
+}
+
+/* first start with the largest container */
+.mybox {
+	background-color: #ffffff;
+}
+
+.masterheader {
+	background color: #ffffff;
+	border: solid 2px #cccccc;
+	height: 80px;
+}
+	
+#container{
+	border: solid 2px #cccccc;
+	float:left;
+	width:25%;
+	text-align: center;
+	margin:auto; /*keep auto for margin + padding right now might have to change later*/
+	padding:auto;
+	line-height: 60px;
+}
+
+/* gotta figure out how to resize my name within the container */
+h1{
+	vertical-align: middle;
+	text-align: center;
+	width:auto;
+	font-weight: bolder;
+	font-size: 20px;
+	color: white;
+	background-color: #4aaaa5;
+	margin-left: 40px;
+	border: solid 2px #cccccc;
+	display: inline-block;
+}
+
+.nav-head {
+	border: solid 2px #cccccc;
+	height:60px;
+	float:left;
+}
+
+.navy {
+	margin: 5px 10px;
+	height:20px;
+	float:left;
+}
+
+.bulk {
+	clear:both;
+	float: left;
+	margin:0 25px;
+	padding: 0 5px;
+	height: auto;
+	width: 650px;
+	background-color: #ffffff;
+}
+
+h2 {
+	background-color: white;
+	width: 25%
+	font-size: 70px;
+	font-color:#4aaaa5;
+	border-bottom: solid 2px #cccccc;
+}
+
+#myself{
+	float:left;
+	display: inline-block;
+	height:180px;
+	width:auto;
+}
+
+.work{
+	float:left;
+	background-color: white;
+	margin-top:10px;
+	height:auto;
+	width: auto;
+	border:solid 2px #cccccc;
+}
+
+h3{
+	border-bottom: solid 2px #cccccc;
+	width: 100%;
+	line-height: 30px;
+	text-align: center;
+}
+
+.contactme {
+	width: 100%;
+	margin:auto;
+	list-style-type: none;
+}
+
+footer {
+	clear:both;
+}
+
+
+
+
+/** for styling of my pseudoclass (beginning)**/
+a {
+	font-size: 24;
+}
+
+a img {
+	display: none;
+}
+
+a: hover{
+	background-color: blue
+}
+
+a: active img {
+	display: block;
+}
+/** pseudoclass end **/
